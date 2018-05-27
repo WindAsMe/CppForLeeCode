@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CppForLeeCode.dir/main.cpp.o  -o CppForLeeCode 
