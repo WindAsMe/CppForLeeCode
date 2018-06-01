@@ -123,32 +123,59 @@ CppForLeeCode/fast:
 	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/build
 .PHONY : CppForLeeCode/fast
 
-main.o: main.cpp.o
+addTwoNumbers.o: addTwoNumbers.cpp.o
 
-.PHONY : main.o
+.PHONY : addTwoNumbers.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/main.cpp.o
-.PHONY : main.cpp.o
+addTwoNumbers.cpp.o:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/addTwoNumbers.cpp.o
+.PHONY : addTwoNumbers.cpp.o
 
-main.i: main.cpp.i
+addTwoNumbers.i: addTwoNumbers.cpp.i
 
-.PHONY : main.i
+.PHONY : addTwoNumbers.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/main.cpp.i
-.PHONY : main.cpp.i
+addTwoNumbers.cpp.i:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/addTwoNumbers.cpp.i
+.PHONY : addTwoNumbers.cpp.i
 
-main.s: main.cpp.s
+addTwoNumbers.s: addTwoNumbers.cpp.s
 
-.PHONY : main.s
+.PHONY : addTwoNumbers.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/main.cpp.s
-.PHONY : main.cpp.s
+addTwoNumbers.cpp.s:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/addTwoNumbers.cpp.s
+.PHONY : addTwoNumbers.cpp.s
+
+pathSum.o: pathSum.cpp.o
+
+.PHONY : pathSum.o
+
+# target to build an object file
+pathSum.cpp.o:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/pathSum.cpp.o
+.PHONY : pathSum.cpp.o
+
+pathSum.i: pathSum.cpp.i
+
+.PHONY : pathSum.i
+
+# target to preprocess a source file
+pathSum.cpp.i:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/pathSum.cpp.i
+.PHONY : pathSum.cpp.i
+
+pathSum.s: pathSum.cpp.s
+
+.PHONY : pathSum.s
+
+# target to generate assembly for a file
+pathSum.cpp.s:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/pathSum.cpp.s
+.PHONY : pathSum.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppForLeeCode"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... addTwoNumbers.o"
+	@echo "... addTwoNumbers.i"
+	@echo "... addTwoNumbers.s"
+	@echo "... pathSum.o"
+	@echo "... pathSum.i"
+	@echo "... pathSum.s"
 .PHONY : help
 
 

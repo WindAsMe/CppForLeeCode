@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CppForLeeCode.dir/main.cpp.o"
+  "CMakeFiles/CppForLeeCode.dir/addTwoNumbers.cpp.o"
+  "CMakeFiles/CppForLeeCode.dir/pathSum.cpp.o"
   "CppForLeeCode.pdb"
   "CppForLeeCode"
 )

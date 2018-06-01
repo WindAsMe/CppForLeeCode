@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zhongrui/CppForLeeCode/main.cpp" "/home/zhongrui/CppForLeeCode/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/main.cpp.o"
+  "/home/zhongrui/CppForLeeCode/addTwoNumbers.cpp" "/home/zhongrui/CppForLeeCode/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/addTwoNumbers.cpp.o"
+  "/home/zhongrui/CppForLeeCode/pathSum.cpp" "/home/zhongrui/CppForLeeCode/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/pathSum.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

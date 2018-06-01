@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhongrui/CppForLeeCode/addTwoNumbers.cpp
+iostream
+-
+
+/home/zhongrui/CppForLeeCode/pathSum.cpp
+clocale
+-
+vector
+-
+
