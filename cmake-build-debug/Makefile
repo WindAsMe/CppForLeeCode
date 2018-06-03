@@ -150,6 +150,33 @@ addTwoNumbers.cpp.s:
 	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/addTwoNumbers.cpp.s
 .PHONY : addTwoNumbers.cpp.s
 
+getIntersectionNode.o: getIntersectionNode.cpp.o
+
+.PHONY : getIntersectionNode.o
+
+# target to build an object file
+getIntersectionNode.cpp.o:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/getIntersectionNode.cpp.o
+.PHONY : getIntersectionNode.cpp.o
+
+getIntersectionNode.i: getIntersectionNode.cpp.i
+
+.PHONY : getIntersectionNode.i
+
+# target to preprocess a source file
+getIntersectionNode.cpp.i:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/getIntersectionNode.cpp.i
+.PHONY : getIntersectionNode.cpp.i
+
+getIntersectionNode.s: getIntersectionNode.cpp.s
+
+.PHONY : getIntersectionNode.s
+
+# target to generate assembly for a file
+getIntersectionNode.cpp.s:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/getIntersectionNode.cpp.s
+.PHONY : getIntersectionNode.cpp.s
+
 pathSum.o: pathSum.cpp.o
 
 .PHONY : pathSum.o
@@ -189,6 +216,9 @@ help:
 	@echo "... addTwoNumbers.o"
 	@echo "... addTwoNumbers.i"
 	@echo "... addTwoNumbers.s"
+	@echo "... getIntersectionNode.o"
+	@echo "... getIntersectionNode.i"
+	@echo "... getIntersectionNode.s"
 	@echo "... pathSum.o"
 	@echo "... pathSum.i"
 	@echo "... pathSum.s"
