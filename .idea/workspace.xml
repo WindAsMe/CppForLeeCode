@@ -12,21 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d19d11a-26d3-40a9-a0d2-9e4d246125ae" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/zhongrui.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/findAndReplacePattern.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addTwoNumbers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/addTwoNumbers.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppForLeeCode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppForLeeCode.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getIntersectionNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/getIntersectionNode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/findAndReplacePattern.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/findAndReplacePattern.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +28,8 @@
       <file leaf-file-name="findAndReplacePattern.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/findAndReplacePattern.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="49" />
+            <state relative-caret-position="309">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
               </folding>
@@ -60,9 +46,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pathSum.cpp" />
-        <option value="$PROJECT_DIR$/findAndReplacePattern.cpp" />
         <option value="$PROJECT_DIR$/addTwoNumbers.cpp" />
         <option value="$PROJECT_DIR$/getIntersectionNode.cpp" />
+        <option value="$PROJECT_DIR$/findAndReplacePattern.cpp" />
       </list>
     </option>
   </component>
@@ -141,24 +127,24 @@
       <workItem from="1527837465207" duration="548000" />
       <workItem from="1527943678188" duration="1143000" />
       <workItem from="1528015942063" duration="57000" />
-      <workItem from="1540443874114" duration="1388000" />
+      <workItem from="1540443874114" duration="3004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4039000" />
+    <option name="totallyTimeSpent" value="5655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-6" width="1309" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980901" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20473644" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3298351" />
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298351" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26386806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31484258" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -177,6 +163,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/getIntersectionNode.cpp">
@@ -276,8 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/findAndReplacePattern.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="49" />
+        <state relative-caret-position="309">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
           </folding>
