@@ -48,14 +48,5 @@ public:
     }
 };
 
-int main() {
-    string words[] = {"abc","deq","aqq","dkd","ccc","mee"};
-    auto length = static_cast<int>(end(words) - begin(words));
-    vector<string> w (words, words + length);
-    Solution solution;
-    vector<string> ans = solution.findAndReplacePattern(w, "abb");
-    for (string &s : ans) {
-        cout << s << " ";
-    }
-}
+
 
