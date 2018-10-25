@@ -3,5 +3,9 @@
 
 CMakeFiles/CppForLeeCode.dir/addTwoNumbers.cpp.o: ../addTwoNumbers.cpp
 
+CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.o: ../findAndReplacePattern.cpp
+
+CMakeFiles/CppForLeeCode.dir/getIntersectionNode.cpp.o: ../getIntersectionNode.cpp
+
 CMakeFiles/CppForLeeCode.dir/pathSum.cpp.o: ../pathSum.cpp
 

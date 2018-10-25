@@ -27,7 +27,3 @@ public:
         return nullptr;
     }
 };
-
-int main(){
-
-}

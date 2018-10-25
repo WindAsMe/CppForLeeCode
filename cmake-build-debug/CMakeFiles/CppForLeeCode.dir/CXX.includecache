@@ -10,8 +10,22 @@
 iostream
 -
 
+/home/zhongrui/CppForLeeCode/findAndReplacePattern.cpp
+iostream
+-
+string
+-
+vector
+-
+map
+-
+
+/home/zhongrui/CppForLeeCode/getIntersectionNode.cpp
+iostream
+-
+
 /home/zhongrui/CppForLeeCode/pathSum.cpp
-clocale
+iostream
 -
 vector
 -

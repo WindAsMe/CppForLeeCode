@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppForLeeCode.dir/addTwoNumbers.cpp.o"
   "CMakeFiles/CppForLeeCode.dir/pathSum.cpp.o"
   "CMakeFiles/CppForLeeCode.dir/getIntersectionNode.cpp.o"
+  "CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.o"
   "CppForLeeCode.pdb"
   "CppForLeeCode"
 )

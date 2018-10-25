@@ -150,6 +150,33 @@ addTwoNumbers.cpp.s:
 	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/addTwoNumbers.cpp.s
 .PHONY : addTwoNumbers.cpp.s
 
+findAndReplacePattern.o: findAndReplacePattern.cpp.o
+
+.PHONY : findAndReplacePattern.o
+
+# target to build an object file
+findAndReplacePattern.cpp.o:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.o
+.PHONY : findAndReplacePattern.cpp.o
+
+findAndReplacePattern.i: findAndReplacePattern.cpp.i
+
+.PHONY : findAndReplacePattern.i
+
+# target to preprocess a source file
+findAndReplacePattern.cpp.i:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.i
+.PHONY : findAndReplacePattern.cpp.i
+
+findAndReplacePattern.s: findAndReplacePattern.cpp.s
+
+.PHONY : findAndReplacePattern.s
+
+# target to generate assembly for a file
+findAndReplacePattern.cpp.s:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.s
+.PHONY : findAndReplacePattern.cpp.s
+
 getIntersectionNode.o: getIntersectionNode.cpp.o
 
 .PHONY : getIntersectionNode.o
@@ -216,6 +243,9 @@ help:
 	@echo "... addTwoNumbers.o"
 	@echo "... addTwoNumbers.i"
 	@echo "... addTwoNumbers.s"
+	@echo "... findAndReplacePattern.o"
+	@echo "... findAndReplacePattern.i"
+	@echo "... findAndReplacePattern.s"
 	@echo "... getIntersectionNode.o"
 	@echo "... getIntersectionNode.i"
 	@echo "... getIntersectionNode.s"
