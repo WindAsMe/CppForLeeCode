@@ -7,5 +7,7 @@ CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.o: ../findAndReplacePatte
 
 CMakeFiles/CppForLeeCode.dir/getIntersectionNode.cpp.o: ../getIntersectionNode.cpp
 
+CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o: ../isMonotonic.cpp
+
 CMakeFiles/CppForLeeCode.dir/pathSum.cpp.o: ../pathSum.cpp
 
