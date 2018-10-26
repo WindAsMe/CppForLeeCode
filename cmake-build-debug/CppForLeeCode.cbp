@@ -93,7 +93,7 @@
 		<Unit filename="/home/zhongrui/CppForLeeCode/getIntersectionNode.cpp">
 			<Option target="CppForLeeCode"/>
 		</Unit>
-		<Unit filename="/home/zhongrui/CppForLeeCode/main.cpp">
+		<Unit filename="/home/zhongrui/CppForLeeCode/isMonotonic.cpp">
 			<Option target="CppForLeeCode"/>
 		</Unit>
 		<Unit filename="/home/zhongrui/CppForLeeCode/pathSum.cpp">

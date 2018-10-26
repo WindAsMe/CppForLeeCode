@@ -153,28 +153,28 @@ CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.o.provides: CMakeFiles/Cp
 CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.o.provides.build: CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.o
 
 
-CMakeFiles/CppForLeeCode.dir/main.cpp.o: CMakeFiles/CppForLeeCode.dir/flags.make
-CMakeFiles/CppForLeeCode.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhongrui/CppForLeeCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppForLeeCode.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppForLeeCode.dir/main.cpp.o -c /home/zhongrui/CppForLeeCode/main.cpp
+CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o: CMakeFiles/CppForLeeCode.dir/flags.make
+CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o: ../isMonotonic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhongrui/CppForLeeCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o -c /home/zhongrui/CppForLeeCode/isMonotonic.cpp
 
-CMakeFiles/CppForLeeCode.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppForLeeCode.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhongrui/CppForLeeCode/main.cpp > CMakeFiles/CppForLeeCode.dir/main.cpp.i
+CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhongrui/CppForLeeCode/isMonotonic.cpp > CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.i
 
-CMakeFiles/CppForLeeCode.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppForLeeCode.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhongrui/CppForLeeCode/main.cpp -o CMakeFiles/CppForLeeCode.dir/main.cpp.s
+CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhongrui/CppForLeeCode/isMonotonic.cpp -o CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.s
 
-CMakeFiles/CppForLeeCode.dir/main.cpp.o.requires:
+CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o.requires:
 
-.PHONY : CMakeFiles/CppForLeeCode.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o.requires
 
-CMakeFiles/CppForLeeCode.dir/main.cpp.o.provides: CMakeFiles/CppForLeeCode.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/CppForLeeCode.dir/main.cpp.o.provides
+CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o.provides: CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o.provides.build
+.PHONY : CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o.provides
 
-CMakeFiles/CppForLeeCode.dir/main.cpp.o.provides.build: CMakeFiles/CppForLeeCode.dir/main.cpp.o
+CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o.provides.build: CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o
 
 
 # Object files for target CppForLeeCode
@@ -183,7 +183,7 @@ CppForLeeCode_OBJECTS = \
 "CMakeFiles/CppForLeeCode.dir/pathSum.cpp.o" \
 "CMakeFiles/CppForLeeCode.dir/getIntersectionNode.cpp.o" \
 "CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.o" \
-"CMakeFiles/CppForLeeCode.dir/main.cpp.o"
+"CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o"
 
 # External object files for target CppForLeeCode
 CppForLeeCode_EXTERNAL_OBJECTS =
@@ -192,7 +192,7 @@ CppForLeeCode: CMakeFiles/CppForLeeCode.dir/addTwoNumbers.cpp.o
 CppForLeeCode: CMakeFiles/CppForLeeCode.dir/pathSum.cpp.o
 CppForLeeCode: CMakeFiles/CppForLeeCode.dir/getIntersectionNode.cpp.o
 CppForLeeCode: CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.o
-CppForLeeCode: CMakeFiles/CppForLeeCode.dir/main.cpp.o
+CppForLeeCode: CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o
 CppForLeeCode: CMakeFiles/CppForLeeCode.dir/build.make
 CppForLeeCode: CMakeFiles/CppForLeeCode.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhongrui/CppForLeeCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CppForLeeCode"
@@ -207,7 +207,7 @@ CMakeFiles/CppForLeeCode.dir/requires: CMakeFiles/CppForLeeCode.dir/addTwoNumber
 CMakeFiles/CppForLeeCode.dir/requires: CMakeFiles/CppForLeeCode.dir/pathSum.cpp.o.requires
 CMakeFiles/CppForLeeCode.dir/requires: CMakeFiles/CppForLeeCode.dir/getIntersectionNode.cpp.o.requires
 CMakeFiles/CppForLeeCode.dir/requires: CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.o.requires
-CMakeFiles/CppForLeeCode.dir/requires: CMakeFiles/CppForLeeCode.dir/main.cpp.o.requires
+CMakeFiles/CppForLeeCode.dir/requires: CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o.requires
 
 .PHONY : CMakeFiles/CppForLeeCode.dir/requires
 

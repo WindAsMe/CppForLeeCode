@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppForLeeCode.dir/pathSum.cpp.o"
   "CMakeFiles/CppForLeeCode.dir/getIntersectionNode.cpp.o"
   "CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.o"
-  "CMakeFiles/CppForLeeCode.dir/main.cpp.o"
+  "CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o"
   "CppForLeeCode.pdb"
   "CppForLeeCode"
 )

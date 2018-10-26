@@ -204,32 +204,32 @@ getIntersectionNode.cpp.s:
 	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/getIntersectionNode.cpp.s
 .PHONY : getIntersectionNode.cpp.s
 
-main.o: main.cpp.o
+isMonotonic.o: isMonotonic.cpp.o
 
-.PHONY : main.o
+.PHONY : isMonotonic.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/main.cpp.o
-.PHONY : main.cpp.o
+isMonotonic.cpp.o:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o
+.PHONY : isMonotonic.cpp.o
 
-main.i: main.cpp.i
+isMonotonic.i: isMonotonic.cpp.i
 
-.PHONY : main.i
+.PHONY : isMonotonic.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/main.cpp.i
-.PHONY : main.cpp.i
+isMonotonic.cpp.i:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.i
+.PHONY : isMonotonic.cpp.i
 
-main.s: main.cpp.s
+isMonotonic.s: isMonotonic.cpp.s
 
-.PHONY : main.s
+.PHONY : isMonotonic.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/main.cpp.s
-.PHONY : main.cpp.s
+isMonotonic.cpp.s:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.s
+.PHONY : isMonotonic.cpp.s
 
 pathSum.o: pathSum.cpp.o
 
@@ -276,9 +276,9 @@ help:
 	@echo "... getIntersectionNode.o"
 	@echo "... getIntersectionNode.i"
 	@echo "... getIntersectionNode.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... isMonotonic.o"
+	@echo "... isMonotonic.i"
+	@echo "... isMonotonic.s"
 	@echo "... pathSum.o"
 	@echo "... pathSum.i"
 	@echo "... pathSum.s"
