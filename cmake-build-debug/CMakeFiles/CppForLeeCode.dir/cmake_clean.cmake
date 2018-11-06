@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppForLeeCode.dir/getIntersectionNode.cpp.o"
   "CMakeFiles/CppForLeeCode.dir/findAndReplacePattern.cpp.o"
   "CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o"
+  "CMakeFiles/CppForLeeCode.dir/pruneTree.cpp.o"
   "CppForLeeCode.pdb"
   "CppForLeeCode"
 )

@@ -99,6 +99,9 @@
 		<Unit filename="/home/windeasme/CLionProjects/CppForLeeCode/pathSum.cpp">
 			<Option target="CppForLeeCode"/>
 		</Unit>
+		<Unit filename="/home/windeasme/CLionProjects/CppForLeeCode/pruneTree.cpp">
+			<Option target="CppForLeeCode"/>
+		</Unit>
 		<Unit filename="/home/windeasme/CLionProjects/CppForLeeCode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

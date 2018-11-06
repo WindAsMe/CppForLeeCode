@@ -258,6 +258,33 @@ pathSum.cpp.s:
 	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/pathSum.cpp.s
 .PHONY : pathSum.cpp.s
 
+pruneTree.o: pruneTree.cpp.o
+
+.PHONY : pruneTree.o
+
+# target to build an object file
+pruneTree.cpp.o:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/pruneTree.cpp.o
+.PHONY : pruneTree.cpp.o
+
+pruneTree.i: pruneTree.cpp.i
+
+.PHONY : pruneTree.i
+
+# target to preprocess a source file
+pruneTree.cpp.i:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/pruneTree.cpp.i
+.PHONY : pruneTree.cpp.i
+
+pruneTree.s: pruneTree.cpp.s
+
+.PHONY : pruneTree.s
+
+# target to generate assembly for a file
+pruneTree.cpp.s:
+	$(MAKE) -f CMakeFiles/CppForLeeCode.dir/build.make CMakeFiles/CppForLeeCode.dir/pruneTree.cpp.s
+.PHONY : pruneTree.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -282,6 +309,9 @@ help:
 	@echo "... pathSum.o"
 	@echo "... pathSum.i"
 	@echo "... pathSum.s"
+	@echo "... pruneTree.o"
+	@echo "... pruneTree.i"
+	@echo "... pruneTree.s"
 .PHONY : help
 
 

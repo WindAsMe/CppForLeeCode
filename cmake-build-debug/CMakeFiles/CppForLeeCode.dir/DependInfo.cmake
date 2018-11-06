@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/windeasme/CLionProjects/CppForLeeCode/getIntersectionNode.cpp" "/home/windeasme/CLionProjects/CppForLeeCode/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/getIntersectionNode.cpp.o"
   "/home/windeasme/CLionProjects/CppForLeeCode/isMonotonic.cpp" "/home/windeasme/CLionProjects/CppForLeeCode/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/isMonotonic.cpp.o"
   "/home/windeasme/CLionProjects/CppForLeeCode/pathSum.cpp" "/home/windeasme/CLionProjects/CppForLeeCode/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/pathSum.cpp.o"
+  "/home/windeasme/CLionProjects/CppForLeeCode/pruneTree.cpp" "/home/windeasme/CLionProjects/CppForLeeCode/cmake-build-debug/CMakeFiles/CppForLeeCode.dir/pruneTree.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

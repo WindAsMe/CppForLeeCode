@@ -22,10 +22,3 @@ public:
         return true;
     }
 };
-
-int main() {
-    Solution s;
-    int a[] = {5,4,3,1};
-    vector<int> v(a, a + static_cast<int>(end(a) - begin(a)));
-    cout << s.isMonotonic(v);
-}
