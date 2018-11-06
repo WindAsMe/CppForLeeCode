@@ -16,12 +16,12 @@ struct TreeNode {
 class Solution {
 public:
     TreeNode* pruneTree(TreeNode* root) {
-        iteration(root->left, root);
-        iteration(root->right, root);
+        iteration(root->left, root, true);
+        iteration(root->right, root, false);
         return root;
     }
 
-    TreeNode* iteration(TreeNode* son, TreeNode* dad, bool left) {
+    void iteration(TreeNode* son, TreeNode* dad, bool left) {
         if (son != nullptr) {
             if (son->val == 1) {
                 iteration(son->left, son, true);
@@ -42,9 +42,35 @@ public:
     }
 
     bool trimTree(TreeNode* node) {
-        if (node->left == nullptr && node->right == nullptr)
-            return true;
-
+        if (node != nullptr) {
+            if (node->left == nullptr && node->right == nullptr && node->val == 0)
+                return true;
+            if (node->val == 1)
+                return false;
+            return trimTree(node->left) || trimTree(node->right);
+        }
+        return true;
     }
-
 };
+
+void print(TreeNode* node) {
+    if (node != nullptr) {
+        cout << node->val << " ";
+        print(node->left);
+        print(node->right);
+    }
+}
+
+int main() {
+    TreeNode root(1);
+    root.left->val = 0;
+    root.left->left->val = 0;
+    root.left->right->val = 0;
+
+    root.right->val = 1;
+    root.right->left->val = 0;
+    root.right->right->val = 1;
+    Solution s;
+    TreeNode* treeNode = s.pruneTree(&root);
+    print(treeNode);
+}
