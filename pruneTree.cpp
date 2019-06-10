@@ -23,6 +23,7 @@ public:
 
     void iteration(TreeNode* son, TreeNode* dad, bool left) {
         if (son != nullptr) {
+            cout << son->val << " ";
             if (son->val == 1) {
                 iteration(son->left, son, true);
                 iteration(son->right, son, false);
@@ -51,6 +52,7 @@ public:
         }
         return true;
     }
+
 };
 
 void print(TreeNode* node) {
@@ -62,6 +64,7 @@ void print(TreeNode* node) {
 }
 
 int main() {
+    cout << 1;
     TreeNode root(1);
     root.left->val = 0;
     root.left->left->val = 0;
@@ -70,7 +73,9 @@ int main() {
     root.right->val = 1;
     root.right->left->val = 0;
     root.right->right->val = 1;
+    cout << root.val;
     Solution s;
     TreeNode* treeNode = s.pruneTree(&root);
     print(treeNode);
 }
+
